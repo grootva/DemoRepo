@@ -4,10 +4,10 @@
 # Setting the rng seed to allow reproduceable runs
 set.seed(1)
 # Length of the first AR process
-n1 = 20
+n1 = 10
 
 # Length of the second AR process
-n2 = 30
+n2 = 20
 
 arOrder = c(1,0,0)
 arCoeff = 0.1
